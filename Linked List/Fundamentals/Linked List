@@ -1,0 +1,23 @@
+Dynamic structures
+form a chain of data points => effective way to manage and manipulate information
+Key use: adding, removing, traversing through elements
+
+A linkedList is fundamentally made up of a set of nodes.
+Node = data(value)+reference(pointer)
+Types: singly linked list and doubly linked list
+
+Advantage: dynamic so easier to add and remove elements even in the middle of list,without having to move any other elements
+Disadvantage: direct retrieval of an element by index---> must traverse list from beginning to end to get desired point, time complexity: O(n)
+
+1. Dynamic Size: grow/shrink as needed without requiring additional memory/space 
+2. Efficient Insertion and deletions: changing node references
+3. Memory Efficiency: memory alloted for every node separately---> no memory fragmentation
+
+java.util.LinkedList : doubly linkedList.
+Implements : List and Deque
+        LinkedList<String> l = new LinkedList<String>();
+
+Add/modify: add(), addFirst(), addLast()
+Access: get(int index), getFirst(), getLast()
+Remove: remove(), removeFirst(), removeLast()
+

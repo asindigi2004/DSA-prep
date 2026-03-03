@@ -1,0 +1,5 @@
+In standard Java, explicit pointer manipulation like that found in C/C++ is not possible. Java uses a concept called references, which are a safe, high-level abstraction of pointers managed by the Java Virtual Machine
+
+1. curr (current): The pointer to the node being actively processed.
+2. prev (previous): The pointer to the node that should logically come before the current node in the new structure.
+3. temp or next (temporary): A pointer to temporarily store the reference to the next node in the original structure before the current node's pointer is redirected. 
